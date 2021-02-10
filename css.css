@@ -1,0 +1,31 @@
+.cube{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.picture{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    margin: 5px;
+}
+.btn-1{
+    margin-left: 80px;
+    margin-top: 80px;
+    display: flex;
+}
+.btn-2{
+    height: 47.66px;
+    display: flex;
+    flex-direction: column;
+}
+.btn-2 > button{
+    height: 47.66px;
+}
+.displayed-image{
+    background-color: red;
+}
